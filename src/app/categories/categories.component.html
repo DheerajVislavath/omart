@@ -1,0 +1,13 @@
+
+<p class="h1">Categories Hierarchy</p>
+
+<ul class="list-group">
+  <ng-container *ngFor="let category of categories">
+      
+    <li class="list-group-item" [ngClass]="category.id" *ngIf="category.parent === 'none'">
+        Categories
+        <input [ngClass]="'in' + category.id" type="text" placeholder="Type new parent category">
+        <button type="button" class="btn btn-primary" (click)="addCategory(category.id)">+</button>
+    </li>
+  </ng-container>
+</ul>
