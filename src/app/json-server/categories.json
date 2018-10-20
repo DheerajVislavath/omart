@@ -1,0 +1,65 @@
+{
+  "categories": [
+    {
+      "id": "category1",
+      "name": "Categories",
+      "parent": "none",
+      "child": [
+        "category1_2",
+        "category1_2"
+      ]
+    },
+    {
+      "name": "Sports",
+      "parent": "category1",
+      "child": [],
+      "id": "QeVn2DB"
+    },
+    {
+      "name": "Kitchen",
+      "parent": "category1",
+      "child": [],
+      "id": "eEEvclq"
+    },
+    {
+      "name": "Basket Ball",
+      "parent": "QeVn2DB",
+      "child": [],
+      "id": "3K1QdKV"
+    },
+    {
+      "name": "Tennis",
+      "parent": "QeVn2DB",
+      "child": [],
+      "id": "JtJxWE6"
+    },
+    {
+      "name": "Racket",
+      "parent": "JtJxWE6",
+      "child": [],
+      "id": "i3mbvBC"
+    },
+    {
+      "name": "Net",
+      "parent": "JtJxWE6",
+      "child": [],
+      "id": "emlNgus"
+    }
+  ],
+  "products": [
+    {
+      "id": 1,
+      "UPC": 123,
+      "name": "product1",
+      "price": 3,
+      "category": "category1_1"
+    },
+    {
+      "id": 2,
+      "UPC": 234,
+      "name": "product2",
+      "price": 3,
+      "category": "category1"
+    }
+  ]
+}
